@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import PricingCard from './components/PricingCard'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           />
         </div>
       </div>
+      <Dashboard />
     </div>
   )
 }
